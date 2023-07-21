@@ -1,0 +1,58 @@
+.box1 {
+    border-radius: 15px;
+    background-color: #D20B52;
+}
+
+.box2 {
+    width: 100%;
+    background-color: #7ED957;
+    border-radius: 15px;
+    color: white;
+    margin-top: 2rem;
+}
+
+.box2 > h1 {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.box2 > p {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+    opacity: 80;
+}
+
+.box3 {
+    background-color: #CFC1B7;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.com {
+    border-right: 4px solid white;
+}
+
+.combox {
+    border-bottom: 4px solid white;
+}
+
+input {
+    width: 70%;
+    height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .com {
+        border-right: 0;
+        border-bottom: 4px solid white;
+    }
+}
